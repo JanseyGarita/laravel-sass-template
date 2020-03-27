@@ -1,0 +1,83 @@
+@media screen and (max-width: 1024px) {
+    .hero-container {
+        height: 60vh !important;
+    }
+    .titles-section {
+        height: auto !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .places-section {
+        .main-text {
+            padding: 40px 0 40px 0;
+            .content {
+                text-align: center !important;
+                width: 80% !important;
+                left: 10% !important;
+            }
+        }
+    }
+    .cards-section {
+        .titles-section {
+            height: auto;
+            flex-direction: column !important;
+            .card {
+                width: 80% !important;
+                left: 45%;
+                transform: translateX(-50%);
+                &:hover{
+                    transform: none;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 468px) {
+    .hero-container {
+        height: 70vh !important;
+        .row .header-container {
+            h1 {
+                font-size: 34px !important;
+            }
+            h3 {
+                font-size: 22px;
+                color: #c0c0c0;
+                font-weight: 400;
+            }
+        }
+    }
+    .link-section {
+        .card {
+            background-size: initial !important;
+            background-position-y: 70% !important;
+        }
+    }
+    .cards-section {
+        padding: 40px 0 30px 0 !important;
+    }
+    .places-section {
+        .row {
+            p {
+                font-size: 14px;
+                letter-spacing: 0.5px;
+            }
+            .place-1 {
+                .image {
+                    background-position-x: 38%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 400px) {
+    .hero-container {
+        height: 85vh !important;
+    }
+    .titles-section {
+        left: 50% !important;
+        width: 100% !important;
+        .card {
+            width: auto !important;
+        }
+    }
+}

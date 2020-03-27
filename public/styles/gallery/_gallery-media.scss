@@ -1,0 +1,84 @@
+body {
+    .images-section {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 15px 20px 15px;
+        justify-content: center;
+        align-items: center;
+        .img {
+            min-width: 200px;
+            max-width: 1fr;
+            min-height: 200px;
+            flex: 15%;
+            max-width: 25%;
+            padding: 0 4px;
+            margin: 10px;
+            background-size: cover;
+            background-position: center;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+        #img-1 {
+            background-image: url("/images/agua_1.jpg");
+        }
+        #img-2 {
+            background-image: url("/images/agua_3.jpg");
+        }
+        #img-3 {
+            background-image: url("/images/mar_1.jpg");
+        }
+        #img-4 {
+            background-image: url("/images/agua_3.jpg");
+            background-size: unset;
+            background-position: 80%;
+        }
+        #img-5 {
+            background-image: url("/images/agua_1.jpg");
+            background-size: auto;
+            background-position: 10%;
+        }
+        #img-6 {
+            background-image: url("/images/agua_3.jpg");
+            background-size: auto;
+            background-position-y: 35%;
+            background-position-x: 70%;
+        }
+        #img-7 {
+            background-image: url("/images/agua_2.jpg");
+        }
+        #img-8 {
+            background-image: url("/images/mar_2.jpg");
+        }
+        #img-9 {
+            background-image: url("/images/mar_1.jpg");
+            background-size: unset;
+        }
+        #img-10 {
+            background-image: url("/images/agua_2.jpg");
+            background-position: top;
+        }
+        #img-11 {
+            background-image: url("/images/mar_2.jpg");
+        }
+        #img-12 {
+            background-image: url("/images/mar_1.jpg");
+            background-size: initial;
+        }
+        #img-13 {
+            background-image: url("/images/agua_2.jpg");
+            background-size: unset;
+            background-position: right;
+        }
+        #img-14 {
+            background-image: url("/images/agua_3.jpg");
+            background-position: unset;
+            background-position: right;
+        }
+        #img-15 {
+            background-image: url("/images/mar_1.jpg");
+            background-position: unset;
+            background-position: left;
+        }
+    }
+}

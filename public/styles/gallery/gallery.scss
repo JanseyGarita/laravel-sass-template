@@ -1,0 +1,24 @@
+@import "../layout";
+body {
+    background: rgb(240, 240, 240);
+    .hero-container {
+        position: relative;
+        width: 100%;
+        height: 15vh;
+        .row {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            .hero {
+                width: 100%;
+                height: 100%;
+                background-image: url("/images/mar_1.jpg");
+                background-size: cover;
+                background-position-y: 50%;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+
+@import "gallery-media";

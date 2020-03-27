@@ -1,0 +1,31 @@
+@media screen and (max-width: 1024px) {
+    .info-container {
+        .row {
+            .image-col {
+                padding-left: 5% !important;
+            }
+            .text-col {
+                padding-right: 5% !important;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .info-container {
+        .row {
+            .image-col {
+                padding-left: 0;
+                margin-bottom: 20px;
+                .image {
+                    width: 100% !important;
+                }
+            }
+            .text-col {
+                margin: 0 !important;
+                padding: 0 !important;
+                text-align: center;
+                padding-top: 50px;
+            }
+        }
+    }
+}
